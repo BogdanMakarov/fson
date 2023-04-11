@@ -1,0 +1,218 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-: #ffffff;
+  --white-secondary: rgba(255, 255, 255, 0.6);
+  --bcg: #f5f5f5;
+  --secondary-bcg: #f5f4fa;
+  --hero-foot-bcg: #2f303a;
+  --black: #000000;
+}
+body {
+  background-color: var(--bcg);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* ----------ОБЩИЕ--------- */
+.list {
+  list-style: none;
+}
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-style: 400;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.btn {
+  color: var(--title-text-color);
+  background-color: var(--bcg);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* ----------ХЕДЕР--------- */
+.header-logo {
+  color: var(--black);
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.header-logo-one {
+  color: var(--accent-color);
+}
+
+.header-site-nav-link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.header-site-nav-link:hover,
+.header-site-nav-link:focus {
+  color: var(--accent-color);
+}
+.header-site-nav-link.current {
+  color: var(--accent-color);
+}
+.header-mail-nav-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.header-mail-nav-link:hover,
+.header-mail-nav-link:focus {
+  color: var(--accent-color);
+}
+.header-tel-nav-link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.header-tel-nav-link:hover,
+.header-tel-nav-link:focus {
+  color: var(--accent-color);
+}
+
+/* ----------HERO---------- */
+.hero-title {
+  color: var(--white-);
+  background-color: var(--hero-foot-bcg);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero-btn {
+  color: var(--white-);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+/* ----------ПЕРЕВАГИ---------- */
+.advances-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.advances-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* ----------НАША РОБОТА---------- */
+
+/* ----------НАША КОМАНДА---------- */
+.team {
+  background-color: var(--secondary-bcg);
+}
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* ----------ФУТЕР---------- */
+.footer {
+  background-color: var(--hero-foot-bcg);
+}
+.footer-logo {
+  color: var(--white-);
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.footer-logo-one {
+  color: var(--accent-color);
+}
+.footer-list {
+  font-style: normal;
+}
+.footer-link-address {
+  color: var(--white-);
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.footer-list-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.footer-list-link:hover,
+.footer-list-link:focus {
+  color: var(--accent-color);
+}
+
+/* ---------ПОРТФОЛИО--------- */
+.portfolio-btn {
+  background-color: var(--secondary-bcg);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--white-);
+  background-color: var(--accent-color);
+}
+.portfolio-gal-link {
+  text-decoration: none;
+}
+.portfolio-gal-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-gal-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
